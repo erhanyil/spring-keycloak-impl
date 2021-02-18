@@ -1,0 +1,12 @@
+server:
+  port: 8081
+
+keycloak:
+  realm: vfmall
+  resource: vfmall-client
+  auth-server-url: http://localhost:8080/auth
+  ssl-required: external
+  use-resource-role-mappings: true
+  bearer-only: true
+  credentials:
+    secret: 3beddf0d-0260-4d5a-b35c-312801d8988a
