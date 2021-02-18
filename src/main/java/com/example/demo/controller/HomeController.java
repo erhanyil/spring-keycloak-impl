@@ -13,7 +13,7 @@ public class HomeController {
 
     @GetMapping("/admin-home")
     public String getAdminHome(){
-        return "USER role - Home Page";
+        return "ADMIN role - Home Page";
     }
 
 
