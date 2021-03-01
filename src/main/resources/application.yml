@@ -2,8 +2,8 @@ server:
   port: 8081
 
 keycloak:
-  realm: vfmall
-  resource: vfmall-client
+  realm: demo
+  resource: demo-client
   auth-server-url: http://localhost:8080/auth
   ssl-required: external
   use-resource-role-mappings: true
